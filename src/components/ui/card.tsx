@@ -17,7 +17,7 @@ const Card = ({ extension, onToggle, onRemove }: CardProps) => {
       <div className="flex gap-4">
         <figure className="w-16 h-16 shrink-0">
           <img
-            src={`/src/assets/images/${logo}`}
+            src={`/images/${logo}`}
             alt={`${name} logo`}
             className="w-full h-full object-contain"
             width={64}
