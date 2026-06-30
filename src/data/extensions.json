@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Console Plus",
+    "logo": "logo-console-plus.svg",
+    "description": "Enhanced browser console with filtering, syntax highlighting, and persistent log history.",
+    "enabled": true
+  },
+  {
+    "id": 2,
+    "name": "DevLens",
+    "logo": "logo-devlens.svg",
+    "description": "Inspect and analyze network requests, headers, and responses in real time.",
+    "enabled": false
+  },
+  {
+    "id": 3,
+    "name": "DOM Snapshot",
+    "logo": "logo-dom-snapshot.svg",
+    "description": "Capture and compare DOM states to detect unexpected changes during development.",
+    "enabled": true
+  },
+  {
+    "id": 4,
+    "name": "Grid Guides",
+    "logo": "logo-grid-guides.svg",
+    "description": "Overlay customizable grid and guide lines on any webpage for precise layout alignment.",
+    "enabled": false
+  },
+  {
+    "id": 5,
+    "name": "JSON Wizard",
+    "logo": "logo-json-wizard.svg",
+    "description": "Format, validate, and explore JSON data directly in the browser with collapsible tree views.",
+    "enabled": true
+  },
+  {
+    "id": 6,
+    "name": "Link Checker",
+    "logo": "logo-link-checker.svg",
+    "description": "Scan pages for broken or redirecting links and get a detailed status report.",
+    "enabled": true
+  },
+  {
+    "id": 7,
+    "name": "Markup Notes",
+    "logo": "logo-markup-notes.svg",
+    "description": "Annotate any webpage with sticky notes and highlights for collaborative reviews.",
+    "enabled": false
+  },
+  {
+    "id": 8,
+    "name": "Palette Picker",
+    "logo": "logo-palette-picker.svg",
+    "description": "Extract and copy color palettes from any website with one click.",
+    "enabled": true
+  },
+  {
+    "id": 9,
+    "name": "Speed Boost",
+    "logo": "logo-speed-boost.svg",
+    "description": "Block ads, trackers, and heavy scripts to improve page load performance.",
+    "enabled": false
+  },
+  {
+    "id": 10,
+    "name": "Style Spy",
+    "logo": "logo-style-spy.svg",
+    "description": "Inspect computed CSS styles and detect overrides across the cascade in real time.",
+    "enabled": true
+  },
+  {
+    "id": 11,
+    "name": "Tab Master Pro",
+    "logo": "logo-tab-master-pro.svg",
+    "description": "Organize, search, and manage dozens of open tabs with groups and quick-switch shortcuts.",
+    "enabled": true
+  },
+  {
+    "id": 12,
+    "name": "Viewport Buddy",
+    "logo": "logo-viewport-buddy.svg",
+    "description": "Preview and test responsive layouts across multiple screen sizes simultaneously.",
+    "enabled": false
+  }
+]

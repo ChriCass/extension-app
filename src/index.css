@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('./assets/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('./assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: 'Noto Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  html.light {
+    color-scheme: light;
+  }
+
+  body {
+    background: radial-gradient(ellipse at top left, #1a2344 0%, #0d1225 60%, #090e1c 100%);
+    min-height: 100dvh;
+    color: white;
+  }
+
+  html.light body {
+    background: radial-gradient(ellipse at top left, #e8ecf7 0%, #d5daf0 60%, #c8cfe8 100%);
+    color: #0d1225;
+  }
+}
